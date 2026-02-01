@@ -1,1 +1,3 @@
-import random import string def generate_password(length, use_upper, use_lower, use_digits, use_symbols): characters = ""
+import random
+ import string 
+def generate_password(length, use_upper, use_lower, use_digits, use_symbols): characters = ""
