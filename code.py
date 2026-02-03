@@ -5,3 +5,6 @@ def generate_password(length, use_upper, use_lower, use_digits, use_symbols): ch
 if use_upper:
         characters +=
  string.ascii_uppercase
+if use_lower:
+        characters +=
+ string.ascii_lowercase
