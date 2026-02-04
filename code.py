@@ -8,3 +8,6 @@ if use_upper:
 if use_lower:
         characters +=
  string.ascii_lowercase
+if use_digits:
+        characters +=
+   string.digits
