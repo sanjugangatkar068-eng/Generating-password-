@@ -11,3 +11,7 @@ if use_lower:
 if use_digits:
         characters +=
    string.digits
+if use_symbols:
+        characters +=
+  string.punctuation
+
