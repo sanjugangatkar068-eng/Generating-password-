@@ -14,4 +14,6 @@ if use_digits:
 if use_symbols:
         characters +=
   string.punctuation
+if characters == "":
+        return None
 
