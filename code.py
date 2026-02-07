@@ -16,4 +16,6 @@ if use_symbols:
   string.punctuation
 if characters == "":
         return None
+password = ''.join(random.choice(characters) for _ in range(length))
+    return password
 
