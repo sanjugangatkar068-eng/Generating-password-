@@ -18,4 +18,7 @@ if characters == "":
         return None
 password = ''.join(random.choice(characters) for _ in range(length))
     return password
+def check_strength(password):
+    strength = 0
+
 
