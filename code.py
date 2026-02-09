@@ -20,5 +20,7 @@ password = ''.join(random.choice(characters) for _ in range(length))
     return password
 def check_strength(password):
     strength = 0
+if any(c.islower() for c in password):
+        strength += 1
 
 
