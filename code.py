@@ -22,5 +22,7 @@ def check_strength(password):
     strength = 0
 if any(c.islower() for c in password):
         strength += 1
+if any(c.isupper() for c in password):
+        strength += 1
 
 
