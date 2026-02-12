@@ -26,4 +26,6 @@ if any(c.isupper() for c in password):
         strength += 1
 if any(c.isdigit() for c in password):
         strength += 1
+if any(c in string.punctuation for c in password):
+        strength += 1
 
