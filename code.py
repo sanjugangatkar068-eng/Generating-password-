@@ -1,4 +1,4 @@
-import random
+huimport random
  import string 
 def generate_password(length, use_upper, use_lower, use_digits, use_symbols): characters = ""
 
@@ -28,4 +28,8 @@ if any(c.isdigit() for c in password):
         strength += 1
 if any(c in string.punctuation for c in password):
         strength += 1
+if len(password) >= 12:
+        strength += 1
+
+
 
