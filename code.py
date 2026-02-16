@@ -30,6 +30,8 @@ if any(c in string.punctuation for c in password):
         strength += 1
 if len(password) >= 12:
         strength += 1
+if strength <= 2:
+        return "Weak"
 
 
 
