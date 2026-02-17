@@ -32,6 +32,8 @@ if len(password) >= 12:
         strength += 1
 if strength <= 2:
         return "Weak"
+elif strength == 3:
+        return "Medium"
 
 
 
