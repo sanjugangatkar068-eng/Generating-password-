@@ -34,6 +34,9 @@ if strength <= 2:
         return "Weak"
 elif strength == 3:
         return "Medium"
+else:
+        return "Strong"
+
 
 
 
