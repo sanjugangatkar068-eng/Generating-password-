@@ -36,6 +36,10 @@ elif strength == 3:
         return "Medium"
 else:
         return "Strong"
+def save_to_file(password):
+    with open("passwords.txt", "a") as file:
+        file.write(password + "\n")
+    print("Password saved to passwords.txt")
 
 
 
