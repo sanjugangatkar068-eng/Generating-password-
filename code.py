@@ -37,9 +37,13 @@ elif strength == 3:
 else:
         return "Strong"
 def save_to_file(password):
-    with open("passwords.txt", "a") as file:
+    with open("passwords.txt", "a") as
+ file:
         file.write(password + "\n")
     print("Password saved to passwords.txt")
+def main():
+    while True:
+        print("\n===== PASSWORD GENERATOR MENU =====")
 
 
 
