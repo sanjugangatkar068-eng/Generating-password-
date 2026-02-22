@@ -44,6 +44,8 @@ def save_to_file(password):
 def main():
     while True:
         print("\n===== PASSWORD GENERATOR MENU =====")
+        print("1. Generate Password")
+        print("2. Exit")
 
 
 
