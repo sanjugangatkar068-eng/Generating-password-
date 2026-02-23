@@ -46,6 +46,8 @@ def main():
         print("\n===== PASSWORD GENERATOR MENU =====")
         print("1. Generate Password")
         print("2. Exit")
+    choice = input("Enter your choice: ")
+
 
 
 
