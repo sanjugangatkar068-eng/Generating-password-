@@ -1,4 +1,4 @@
-huimport random
+import random
  import string 
 def generate_password(length, use_upper, use_lower, use_digits, use_symbols): characters = ""
 
@@ -47,6 +47,9 @@ def main():
         print("1. Generate Password")
         print("2. Exit")
     choice = input("Enter your choice: ")
+if choice == "1":
+            length = int(input("Enter password length: "))
+
 
 
 
