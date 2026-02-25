@@ -49,7 +49,7 @@ def main():
     choice = input("Enter your choice: ")
 if choice == "1":
             length = int(input("Enter password length: "))
-
+print("\nSelect character types:")
 
 
 
