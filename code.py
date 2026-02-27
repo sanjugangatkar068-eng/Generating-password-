@@ -51,7 +51,7 @@ if choice == "1":
             length = int(input("Enter password length: "))
 print("\nSelect character types:")
 use_upper = input("Include Uppercase letters? (y/n): ").lower() == 'y'
-
+use_digits = input("Include Digits? (y/n): ").lower() == 'y'
 
 
 
