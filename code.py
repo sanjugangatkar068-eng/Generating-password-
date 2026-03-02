@@ -53,6 +53,8 @@ print("\nSelect character types:")
 use_upper = input("Include Uppercase letters? (y/n): ").lower() == 'y'
 use_lower = input("Include Lowercase letters? (y/n): ").lower() == 'y'
 use_digits = input("Include Digits? (y/n): ").lower() == 'y'
+use_symbols = input("Include Special Symbols? (y/n): ").lower() == 'y'
+
 
 
 
