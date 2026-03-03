@@ -1,4 +1,4 @@
-import random
+ import random
  import string 
 def generate_password(length, use_upper, use_lower, use_digits, use_symbols): characters = ""
 
@@ -54,6 +54,13 @@ use_upper = input("Include Uppercase letters? (y/n): ").lower() == 'y'
 use_lower = input("Include Lowercase letters? (y/n): ").lower() == 'y'
 use_digits = input("Include Digits? (y/n): ").lower() == 'y'
 use_symbols = input("Include Special Symbols? (y/n): ").lower() == 'y'
+password = generate_password(
+                length,
+                use_upper,
+                use_lower,
+                use_digits,
+                use_symbols
+            
 
 
 
