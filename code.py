@@ -60,7 +60,10 @@ password = generate_password(
                 use_lower,
                 use_digits,
                 use_symbols
-            
+              )
+
+            if password is None:
+                print("❌ Error: Select at least one character type.")
 
 
 
