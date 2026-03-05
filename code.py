@@ -64,6 +64,8 @@ password = generate_password(
 
             if password is None:
                 print("❌ Error: Select at least one character type.")
+               else:
+                print("\nGenerated Password:", password)
 
 
 
