@@ -66,6 +66,8 @@ password = generate_password(
                 print("❌ Error: Select at least one character type.")
                else:
                 print("\nGenerated Password:", password)
+strength = check_strength(password)
+                print("Password Strength:", strength)
 
 
 
