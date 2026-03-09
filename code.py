@@ -69,7 +69,8 @@ password = generate_password(
 strength = check_strength(password)
                 print("Password Strength:", strength)
                save = input("Do you want to save this password? (y/n): ").lower()
-
+          if save == 'y':
+                    save_to_file(password)
 
 
 
