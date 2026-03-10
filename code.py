@@ -71,6 +71,8 @@ strength = check_strength(password)
                save = input("Do you want to save this password? (y/n): ").lower()
           if save == 'y':
                     save_to_file(password)
-
+elif:
+ choice == "2":
+            print("Exiting program... Thank you!")
 
 
