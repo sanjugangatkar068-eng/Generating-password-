@@ -74,5 +74,10 @@ strength = check_strength(password)
 elif:
  choice == "2":
             print("Exiting program... Thank you!")
+         break
+
+   else:
+            print("❌ Invalid choice. Try again.")
+
 
 
